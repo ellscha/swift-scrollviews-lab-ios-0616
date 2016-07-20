@@ -21,23 +21,23 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ake-CN-ZWL">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                                 <subviews>
-                                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="stF-Mt-HSs">
-                                        <rect key="frame" x="0.0" y="0.0" width="3000" height="636"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="stF-Mt-HSs">
+                                        <rect key="frame" x="0.0" y="0.0" width="3000" height="600"/>
                                         <subviews>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="251" image="Sadness" translatesAutoresizingMaskIntoConstraints="NO" id="eRG-Hz-jfH">
-                                                <rect key="frame" x="0.0" y="0.0" width="1352" height="636"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" verticalHuggingPriority="251" misplaced="YES" image="Sadness" translatesAutoresizingMaskIntoConstraints="NO" id="eRG-Hz-jfH">
+                                                <rect key="frame" x="0.0" y="0.0" width="1352" height="600"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Joy" translatesAutoresizingMaskIntoConstraints="NO" id="IyO-MG-DAa">
-                                                <rect key="frame" x="1352" y="0.0" width="406" height="636"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Joy" translatesAutoresizingMaskIntoConstraints="NO" id="IyO-MG-DAa">
+                                                <rect key="frame" x="1352" y="0.0" width="406" height="600"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Fear" translatesAutoresizingMaskIntoConstraints="NO" id="Ga8-Y6-tRK">
-                                                <rect key="frame" x="1758" y="0.0" width="416" height="636"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Fear" translatesAutoresizingMaskIntoConstraints="NO" id="Ga8-Y6-tRK">
+                                                <rect key="frame" x="1758" y="0.0" width="416" height="600"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Disgust" translatesAutoresizingMaskIntoConstraints="NO" id="4dg-sI-ls4">
-                                                <rect key="frame" x="2174" y="0.0" width="414" height="636"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Disgust" translatesAutoresizingMaskIntoConstraints="NO" id="4dg-sI-ls4">
+                                                <rect key="frame" x="2174" y="0.0" width="414" height="600"/>
                                             </imageView>
-                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Anger" translatesAutoresizingMaskIntoConstraints="NO" id="a0S-BV-TKz">
-                                                <rect key="frame" x="2588" y="0.0" width="412" height="636"/>
+                                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Anger" translatesAutoresizingMaskIntoConstraints="NO" id="a0S-BV-TKz">
+                                                <rect key="frame" x="2588" y="0.0" width="412" height="600"/>
                                             </imageView>
                                         </subviews>
                                         <constraints>
@@ -53,8 +53,9 @@
                                     <constraint firstAttribute="trailing" secondItem="a0S-BV-TKz" secondAttribute="trailing" id="0wz-JS-Egi"/>
                                     <constraint firstItem="stF-Mt-HSs" firstAttribute="top" secondItem="Ake-CN-ZWL" secondAttribute="top" id="ReN-5q-ybp"/>
                                     <constraint firstItem="stF-Mt-HSs" firstAttribute="width" secondItem="Ake-CN-ZWL" secondAttribute="width" multiplier="5" id="VlG-He-T7w"/>
-                                    <constraint firstAttribute="trailing" secondItem="stF-Mt-HSs" secondAttribute="trailing" constant="-2400" id="XtE-QZ-uZ4"/>
-                                    <constraint firstAttribute="bottom" secondItem="stF-Mt-HSs" secondAttribute="bottom" constant="-36" id="bDs-xo-TFo"/>
+                                    <constraint firstItem="stF-Mt-HSs" firstAttribute="height" secondItem="Ake-CN-ZWL" secondAttribute="height" id="X5r-3c-fhg"/>
+                                    <constraint firstAttribute="trailing" secondItem="stF-Mt-HSs" secondAttribute="trailing" id="XtE-QZ-uZ4"/>
+                                    <constraint firstItem="stF-Mt-HSs" firstAttribute="bottom" secondItem="Ake-CN-ZWL" secondAttribute="bottom" id="bDs-xo-TFo"/>
                                     <constraint firstItem="stF-Mt-HSs" firstAttribute="leading" secondItem="Ake-CN-ZWL" secondAttribute="leading" id="zNf-hp-hEI"/>
                                 </constraints>
                             </scrollView>
